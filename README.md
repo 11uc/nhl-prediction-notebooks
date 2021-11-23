@@ -12,7 +12,13 @@ The model was trained to predict the statistics for the last season from previou
 3 seasons. A deep neural network is used to make the prediction. The targets
 are performance statistics that important for fantasy hockey points. For skaters,
 their goals, assits and shots were predicted. For goalies, their saves, team wins
-and goals against were predicted. The features include targets in the previous
+and goals against were predicted. The following graphs plotted the distribution
+of the prediction targets in the datasets.
+
+![skater_dist](https://user-images.githubusercontent.com/24282911/143050729-5512056b-0d13-4d04-a6b6-a979cf8039c8.png)
+![goalie_dist](https://user-images.githubusercontent.com/24282911/143050712-4ba1529b-36d0-4026-91ac-53af5def5982.png)
+
+The features include targets in the previous
 seasons and other stats about the perfomance of the players. The most relevant
 are probably the prediction target in the previous season. There for
 I plotted the prediction targets for the test sets against the stats 
